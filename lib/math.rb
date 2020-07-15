@@ -1,3 +1,5 @@
+require "pry"
+
 def addition(num1, num2)
 num1 + num2
 end
@@ -7,7 +9,7 @@ num2 - num1
 end
 
 def division(num1, num2)
-num2 / num1
+num2  num1
 end
 
 def multiplication(num1, num2)
@@ -17,7 +19,7 @@ end
 def modulo(num1, num2)
 num2 % num1
 end
-
+binding.pry
 def square_root(num)
 Math.sqrt(num)
 end
